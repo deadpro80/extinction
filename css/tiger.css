@@ -1,0 +1,31 @@
+
+/* THIS IS THE FIRST BUBBLE WITH THE PICTURE*/
+
+.jumbotron {
+}
+
+.jon {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+img {
+
+}
+
+/* SECOND BUBBLE */
+.description {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	padding: 4rem 2rem;
+	background-color: whitesmoke;
+	border: 3px solid #005CFF;
+	border-radius: .3rem;
+}
+
+h1 {
+	font-family: 'Bree Serif', serif;
+}
+
