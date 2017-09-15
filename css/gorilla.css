@@ -1,3 +1,5 @@
+/*mountain gorilla/
+
 
 /* THIS IS THE FIRST BUBBLE WITH THE PICTURE*/
 
@@ -11,26 +13,24 @@
 	height: auto;
 }
 
-.words{
-	font-weight: bold;
+img {
+
 }
 
-
-.animal1 {
-	max-width: 100%; 
-	width: auto;
+.tiger1 , .whale1 {
 	float: left;
 	border-radius: 1.3rem;
 	margin: 10px;
 	border: 3px solid black
 }
 
-.animal2 {
-	max-width: 100%;
-	width: auto;
+.tiger2 , .whale2 {
 	float: right;
 	border-radius: 1.3rem;
 	border: 3px solid black;
+}
+
+.words {
 }
 
 /* SECOND BUBBLE */
@@ -41,9 +41,9 @@
 	background-color: whitesmoke;
 	border: 3px solid #005CFF;
 	border-radius: .3rem;
+	text-align: ;
 }
 
 h1 {
 	font-family: 'Bree Serif', serif;
 }
-

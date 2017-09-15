@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | Age of Extinction</title>
+
+    <title>Gorilla | Age of Extinction</title>
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -15,35 +19,28 @@
     <!-- CUSTOM FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Roboto|Varela+Round" rel="stylesheet">
 
-    <!-- SLIDESHOW JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function(){
-            $("#slideshow > div:gt(0)").hide();          
-            setInterval(function(){
-                $("#slideshow > div:first").fadeOut(1000).next().fadeIn(1000).end().appendTo("#slideshow");
-            }, 5000);
-        });
-    </script>
+    <!-- OUR CSS CHANGES -->
+    <link rel="stylesheet" type="text/css" href="css/gorilla.css">
 
     <!-- FONTS -->
-    <style>
-      h1 {
+  <style>
+    h1 {
       font-family: 'Bree Serif', serif;
-      }
+    }
 
-      h4 {
+    h4 {
       font-family: 'Varela Round', sans-serif;
-      }
+    }
 
-      p {
+    p {
       font-family: 'Roboto', sans-serif; 
-      font-weight: bold;
-      }
-    </style>
+    }
+  </style>
   </head>
+
   <body>
-    <!-- Navigation -->
+
+<!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <!-- THIS IS THE HEADER -->
       <div class="container">
@@ -54,27 +51,26 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-
             <!-- HEADER SUBPAGES -->
               <a class="nav-link" href="index.html">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="help.html">How to Help</a>
+              <a class="nav-link" href="../subpages/help.html">How to Help</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About Extinction</a>
+              <a class="nav-link" href="../subpages/about.html">About Extinction</a>
             </li>
-			      <li class="nav-item">
+            <li class="nav-item">
             <!-- DROP DOWN MENU -->
-				    <div class="dropdown">
-  					 <button class="dropbtn">Animals</button>
-  					  <div class="dropdown-content">
-    				    <a href="tiger.html">Indochinese Tiger</a>
-					      <a href="fin-whale.html">Fin Whale</a>
-    				    <a href="vulture.html">Egyptian Vulture</a>
-					      <a href="bee.html">Rusty Patched Bumble Bee</a>
+            <div class="dropdown">
+             <button class="dropbtn">Animals</button>
+              <div class="dropdown-content">
+                <a href="tiger.html">Indochinese Tiger</a>
+                <a href="fin-whale.html">Fin Whale</a>
+                <a href="vulture.html">Egyptian Vulture</a>
+                <a href="bee.html">Rusty Patched Bumble Bee</a>
               </div>
             </li>
           </ul>
@@ -86,97 +82,66 @@
     <div class="container">
 
       <!-- Jumbotron Header -->
-      <header class="jumbotron my-4">
-        <h1 class="display-3">Extinction</h1>
-        <p class="lead">Extinction is the process in which groups of organisms die out. If over an extended period of time the birth rate of a species is less than the death rate, then extinction will eventually occur. To learn more check out:</p>
-        <a href="about.html" class="btn btn-primary btn-lg">About Extinction</a>
-      </header>
+      <div class="jon">
+        <header class="jumbotron my-4">
+        
+
+
+        <!-- MAIN ANIMAL PICTURE HERE -->
+          <img src="img/gorilla.jpg">
+
+          <!-- ANIMAL NAME HERE -->
+          <h1 class="display-3">Mountain Gorilla</h1>
+          ]
+          <!-- ANIMAL DESCRIPTION -->
+          <p class="lead">Animal Description</p>      
+        </header>
+      </div>  
+
+      <!-- DESCRIPTION BUBBLE -->
+      <div class="description">
+        <div class="words">
+
+
+        <!-- ANIMAL CONTENT -->
+        <img class="" src="img/gorilla1.jpg">   <!-- ANIMAL PICTURE 1 -->
+        <p>ANIMAL CONTENT<br><br>
+
+
+        ANIMAL CONTENT<br><br>
+
+        ANIMAL CONTENT<br><br>
+
+        ANIMAL CONTENT<br><br>
+
+
+        <img class="" src="img/gorilla2.jpg"> <!-- ANIMAL PICTURE 2 -->
+
+        ANIMAL CONTENT<br><br>
+
+        ANIMAL CONTENT<br><br>
+
+        ANIMAL CONTENT<br><br>
+        </p></div>
+
+      <!-- END OF DESCRIPTION -->
+
+      <!-- CHART IN HERE -->
+      <div></div>
+      <!-- CHART END -->
+
+      </div>
+
+
+      <h3>More like this:</h3>
 
       <!-- Page Features -->
-
-
-      <!-- SLIDESHOW CSS -->
-      <style type="text/css">
-        #slideshow {
-          margin: 80px auto;
-          position: relative;
-          width: 1110px;
-          height: 600px;
-          padding: 10px;
-          box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-          border-radius: 1.3rem;
-          display: initial;
-        }
-
-        #slideshow > .slide_images {
-          position: absolute;
-          top: 10px;
-          left: 10px;
-          right: 10px;
-          bottom: 10px;
-        }
-
-        .slide_images img{
-          width: 100%;
-          height: 100%;
-          border-radius: 1.3rem;
-        }
-
-        @media (min-width: 320px){
-          h1.display-3 {
-            font-size: 3.5rem;
-          }
-          #slideshow {
-            display: none;
-          }
-        }
-        
-        @media (min-width: 1024px){
-          h1.display-3 {
-            font-size: 4.5rem;
-          }
-
-          #slideshow {
-            display: block;
-            max-width: 900px;
-            max-height: 506px;
-          }
-        }
-
-        @media (min-width: 1200px){
-          #slideshow  {
-            max-width: 1110px;
-            max-height: 600px;
-          }
-        }
-      </style>
-
-
-      <!-- SLIDESHOW HTML -->
-        <div id="slideshow">
-          <div class="slide_images" width="100%">
-            <a href="tiger.html" target="_blank" title="Indochinese Tiger"><img src="img/slide0.jpg"></a>
-          </div>
-          <div class="slide_images" width="100%">
-            <a href="fin-whale.html" target="_blank" title="Fin Whale"><img src="img/slide2.jpg"></a>
-          </div>
-          <div class="slide_images" width="100%">
-            <a href="vulture.html" target="_blank" title="Egyptian Vulture"><img src="img/slide3.jpg"></a>
-          </div>
-            <div class="slide_images" width="100%">
-            <a href="bee.html" target="_blank"   title="Rusty Patched Bumble Bee"><img src="img/slide4.jpg"></a>
-          </div>
-        </div>
-      
-
-
-      <!-- ANIMAL CARDS -->
       <div class="row text-center">
-        <div class="col-lg-3 col-md-6 mb-4">
 
-        <!-- TIGER CARD -->
+        <!-- TIGER CARD-->
+        <div class="col-lg-3 col-md-6 mb-4">
           <div class="card">
-            <img class="card-img-top" src="img/tiger.jpg" alt="Tiger">
+            <img class="card-img-top" src="img/tiger.jpg" alt="Whale">
             <div class="card-body">
               <h4 class="card-title">Indochinese Tiger</h4>
               <p class="card-text">In China, it's vary rare to find these tigers in the wild. There are only around 1,200 giant cats from the Indochinese family left in the world thanks to human hunting and deforestation.</p>
@@ -229,6 +194,8 @@
           </div>
         </div>
       </div>
+  
+        </div>
       <!-- /.row -->
 
     </div>
@@ -237,7 +204,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; The Green Squad 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
       </div>
       <!-- /.container -->
     </footer>

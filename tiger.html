@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Age of Extinction</title>
+    <title>Indochinese Tiger | Age of Extinction</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/heroic-features.css" rel="stylesheet">
-
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <!-- CUSTOM FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Roboto|Varela+Round" rel="stylesheet">
 
     <!-- OUR CSS CHANGES -->
     <link rel="stylesheet" type="text/css" href="css/tiger.css">
 
+    <!-- CHART JS -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="topup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.bundle.js"></script>
+
+
     <!-- FONTS -->
-  <style>
-    h1 {
-      font-family: 'Bree Serif', serif;
-    }
+    <style>
+        h1 {
+            font-family: 'Bree Serif', serif;
+        }
 
-    h4 {
-      font-family: 'Varela Round', sans-serif;
-    }
+        h4 {
+            font-family: 'Varela Round', sans-serif;
+        }
 
-    p {
-      font-family: 'Roboto', sans-serif; 
-    }
-  </style>
-  </head>
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
 
-  <body>
-
-<!-- Navigation -->
+<body>
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-
-    <!-- THIS IS THE HEADER -->
+        <!-- THIS IS THE HEADER -->
       <div class="container">
         <a class="navbar-brand" href="index.html">Age of Extinction</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,13 +62,21 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="tiger.html">Animals</a>
+              <a class="nav-link" href="help.html">How to Help</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">How to Help</a>
+              <a class="nav-link" href="about.html">About Extinction</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Extinction</a>
+                  <li class="nav-item">
+            <!-- DROP DOWN MENU -->
+                    <div class="dropdown">
+                     <button class="dropbtn">Animals</button>
+                      <div class="dropdown-content">
+                        <a href="tiger.html">Indochinese Tiger</a>
+                          <a href="fin-whale.html">Fin Whale</a>
+                        <a href="vulture.html">Egyptian Vulture</a>
+                          <a href="bee.html">Rusty Patched Bumble Bee</a>
+              </div>
             </li>
           </ul>
         </div>
@@ -75,102 +86,132 @@
     <!-- Page Content -->
     <div class="container">
 
-      <!-- Jumbotron Header -->
-      <div class="jon">
-        <header class="jumbotron my-4">
-          <img src="img/tiger.jpg">
-          <h1 class="display-3">Indochinese Tiger</h1>
-          <p class="lead">There are only around 1,200 giant cats <br>from the Indochinese family left in the world thanks to poaching.</p>      
-        </header>
-      </div>  
-
-      <!-- DESCRIPTION BUBBLE -->
-      <div class="description">
-        <div class="words">
-        <p>The Indochinese tiger (also known as the Corbett's tiger) is a subspecies of tiger, found throughout South-East Asia. The Indochinese Tiger is now an Endangered species and actually thought to be extinct in the Chinese wild today.<br><br>
-
-
-        The Indochinese tiger is found throughout Cambodia Laos, Thailand, Burma, and Vietnam although the Indochinese tiger’s range is much smaller now than it once was and no Indochinese tigers have been seen in the wild In China since 2007.<br><br>
-
-        This tiger species is a medium sized species of tiger that usually inhabits secluded forests up in the mountain region, which is generally along the borders along each country.<br><br>
-
-        Since it is a dominant and carnivorous predator by stalking its prey until it’s the right time to pounce they usually hunt large mammals such as deer, wild boar, cattle and goats.<br><br>
-
-        The only threat to these tigers is really humans who hunt them and the loss of their habitats due to deforestation. Thanks to humans poachers the current population is believed to be 1,200 to 350.<br><br>
-
-        Of course the tiger species is important because if they are gone for good this will effect the population of other species. Such as the Asian elephant, Asiatic black bear, a suite of wild cattle and many endemic deer.<br><br>
-
-        Our current plan to save them is by working with local communities to help let both sides coexist. As well as protecting their habitats and establishing tiger landscapes which prevents poachers and hunters from killing off this species which is on the brink of extinction.<br><br>
-        </p></div>
-
-      </div>
-
-
-      <h3>More like this:</h3>
-
-      <!-- Page Features -->
-      <div class="row text-center">
-
-        <!-- FIN WHALE CARD-->
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top" src="img/fin-whale.jpg" alt="Whale">
-            <div class="card-body">
-              <h4 class="card-title">Fin Whale</h4>
-              <p class="card-text">Almost 750,000 fin whales were killed in the Southern Hemisphere between 1904 and 1979 The current population in the North Atlantic probably exceeds 46,000 right now.</p>
-            </div>
-            <div class="card-footer">
-              <a href="fin-whale.html" class="btn btn-primary">Find Out More!</a>
-            </div>
-          </div>
+        <!-- Jumbotron Header -->
+        <div class="jon">
+            <header class="jumbotron my-4">
+                <img src="img/tiger.jpg" width="100%">
+                <h1 class="display-4">Indochinese Tiger</h1>
+                <p class="lead">In China, it's vary rare to find these tigers in the wild. There are only around 1,200 giant cats from the Indochinese family left in the world thanks to human hunting and deforestation.</p>
+            </header>
         </div>
 
-        <!-- VULTURE CARD -->
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top" src="img/vulture.jpg" alt="Vulture">
-            <div class="card-body">
-              <h4 class="card-title">Egyptian Vulture</h4>
-                <p class="card-text">Resulting from poisoning by the diclofenac, a veterinary drug given to livestock which is toxic to vultures, brought declining birth rates there are only 12,000 — 38,000 left and on the decline.</p>
+        <!-- DESCRIPTION BUBBLE -->
+        <div class="description">
+            <div class="words">
+                <img class="animal1" src="img/tiger1.jpg">
+                <!-- TIGER PICTURE 1 -->
+                <p>The Indochinese tiger (also known as the Corbett's tiger) is a subspecies of tiger, found throughout South-East Asia. The Indochinese Tiger is now an Endangered species and actually thought to be extinct in the Chinese wild today.<br><br> The Indochinese tiger is found throughout Cambodia Laos, Thailand, Burma, and Vietnam although the Indochinese tiger’s range is much smaller now than it once was and no Indochinese tigers have been seen in the wild In China since 2007.<br><br> This tiger species is a medium sized species of tiger that usually inhabits secluded forests up in the mountain region, which is generally along the borders along each country.<br><br> Since it is a dominant and carnivorous predator by stalking its prey until it’s the right time to pounce they usually hunt large mammals such as deer, wild boar, cattle and goats.<img class="animal2" src="img/tiger2.jpg"><br><br>
+                    <!-- TIGER PICTURE 2 -->
+
+                    The only threat to these tigers is really humans who hunt them and the loss of their habitats due to deforestation. Thanks to humans poachers the current population is believed to be 1,200 to 350.<br><br> Of course the tiger species is important because if they are gone for good this will effect the population of other species. Such as the Asian elephant, Asiatic black bear, a suite of wild cattle and many endemic deer.<br><br> Our current plan to save them is by working with local communities to help let both sides coexist. As well as protecting their habitats and establishing tiger landscapes which prevents poachers and hunters from killing off this species which is on the brink of extinction.<br><br>
+                </p>
             </div>
-            <div class="card-footer">
-              <a href="vulture.html" class="btn btn-primary">Find Out More!</a>
-            </div>
-          </div>
+
+            <!-- CHART HERE -->
+            <canvas id="myChart" width="400" height="150"></canvas>
+            <script>
+                var ctx = document.getElementById("myChart");
+                var myChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: ["1965", "1970", "1975", "1980", "1985", "1990", "2000", "2005", "2010", "2015"],
+                        datasets: [{
+                            label: 'Rate Of Decline',
+                            data: [50000, 45000, 34000, 28000, 26000, 20000, 19860, 13200, 12000, 350],
+                            backgroundColor: [
+                                'rgba(255, 110, 24, 0.2)',
+                                'rgba(54, 162, 235, 0.2)',
+                                'rgba(255, 206, 86, 0.2)',
+                                'rgba(75, 192, 192, 0.2)',
+                                'rgba(153, 102, 255, 0.2)',
+                                'rgba(255, 159, 64, 0.2)'
+                            ],
+                            borderColor: [
+                                'rgba(255,86,0,1)',
+                                'rgba(54, 162, 235, 1)',
+                                'rgba(255, 206, 86, 1)',
+                                'rgba(75, 192, 192, 1)',
+                                'rgba(153, 102, 255, 1)',
+                                'rgba(255, 159, 64, 1)'
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            yAxes: [{
+                                ticks: {
+                                    beginAtZero: true
+                                }
+                            }]
+                        }
+                    }
+                });
+            </script>
+
+            <!-- CHART END -->
+
         </div>
+        <!-- END OF DESCRIPTION BUBBLE -->
 
-        <!-- BEE CARD -->
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card">
-            <img class="card-img-top" src="img/bee.jpg" alt="Bee">
-            <div class="card-body">
-              <h4 class="card-title">Rusty Patched Bumble Bee</h4>
-              <p class="card-text">This species of bumble bee is the first native bee species to be listed as endangered in the continental U.S with a population decine of 95% thanks to human activity.</p>
+        <h3>More like this:</h3>
+
+        <!-- Page Features -->
+        <div class="row text-center">
+
+            <!-- FIN WHALE CARD-->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/fin-whale.jpg" alt="Whale">
+                    <div class="card-body">
+                        <h4 class="card-title">Fin Whale</h4>
+                        <p class="card-text">Almost 750,000 fin whales were killed in the Southern Hemisphere between 1904 and 1979 The current population in the North Atlantic probably exceeds 46,000 right now.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="fin-whale.html" class="btn btn-primary">Find Out More!</a>
+                    </div>
+                </div>
             </div>
-            <div class="card-footer">
-              <a href="bee.html" class="btn btn-primary">Find Out More!</a>
+
+            <!-- VULTURE CARD -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/vulture.jpg" alt="Vulture">
+                    <div class="card-body">
+                        <h4 class="card-title">Egyptian Vulture</h4>
+                        <p class="card-text">Resulting from poisoning by the diclofenac, a veterinary drug given to livestock which is toxic to vultures, brought declining birth rates there are only 12,000 — 38,000 left and on the decline.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="vulture.html" class="btn btn-primary">Find Out More!</a>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <!-- BEE CARD -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/bee.jpg" alt="Bee">
+                    <div class="card-body">
+                        <h4 class="card-title">Rusty Patched Bumble Bee</h4>
+                        <p class="card-text">This species of bumble bee is the first native bee species to be listed as endangered in the continental U.S with a population decine of 95% thanks to human activity.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="bee.html" class="btn btn-primary">Find Out More!</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <!--<div class="col-lg-3 col-md-6 mb-4">
-          <p>MEOW MEOW MEOW MEOW MEOW MEOW MEOW MEOW MEOW MEOW
-             MEOW MEOW MEOW MEOW MEOW MEOW MEOW MEOW MEOW MEOW
-             MEOW MEOW MEOW MEOW MEOW MEOW MEOW MEOW MEOW MEOW</p>     
-        </div> -->
-
-      </div>
-      <!-- /.row -->
+        <!-- /.row -->
 
     </div>
     <!-- /.container -->
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
-      </div>
-      <!-- /.container -->
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; The Green Squad 2017</p>
+        </div>
+        <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
@@ -178,6 +219,6 @@
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  </body>
+</body>
 
 </html>
